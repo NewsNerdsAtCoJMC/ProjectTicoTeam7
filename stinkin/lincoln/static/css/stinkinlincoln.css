@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/mooning.png);
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2.7em;
+}
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+}
+
+.container-fluid {
+	max-width: 1000px;
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+}
+
+/* Header */
+
+.hrtop {
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+}
+
+.title {
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+}
+
+.slogan {
+	margin: 0px;
+	padding: 0px;
+}
+
+.socialmedia {
+	margin: 20px 0px 0px 0px;
+	text-align: right;
+}
+
+.facebook, .twitter, .instagram {
+	margin: 0px 10px 0px 10px;
+	padding: 0px;
+}
+
+/* Map and Map Checklist*/
+
+.mapchecklist {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+
+.mapchecklist ul {
+	list-style: none;
+	width: 100%;
+}
+
+.mapchecklist li {
+	font-family: 'Fjalla One', sans-serif;
+	width: 25%;
+	display: inline;
+	float: left;
+	font-size: 1.5em;
+}
+
+img {
+	max-width: 100%;
+}
+
+.mapimg {
+	border: thin solid black;
+}
+
+/* Snitch and Bitch Header */
+
+.snitchandbitch {
+	margin: 0px;
+	padding: 0px;
+}
+
+.left {
+	font-size: 3em;
+	color: #618F0F;
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+}
+
+.right {
+	font-size: 3em;
+	color: #FFA200;
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+}
+
+.leftp {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.4em;
+	margin: 10px 0px 20px 0px;
+	padding: 0px;
+}
+
+.rightp {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.4em;
+	margin: 10px 0px 20px 0px;
+	padding: 0px;
+}
+
+
+.ampersand {
+	font-size: 2.1em;
+}
+
+/* Snitch and Bitch */
+
+
+.snitch {
+	border: thin solid #000000;
+	border-radius: 5px;
+	box-shadow: 0px 4px 8px 1px darkgray;
+	text-align: left;
+	margin-right: 10px;
+}
+
+.snitchtext {
+	margin: 5px;
+}
+
+.bitch {
+	border: thin solid #000000;
+	border-radius: 5px;
+	box-shadow: 0px 4px 8px 1px darkgray;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.bitchtext {
+	overflow-y: scroll; height: 370px;
+}
+
+.PWU, .PG, .senators {
+	font-family: sans-serif;
+}
+
+input, textarea {
+	max-width: 100%;
+}
+
+/* About and Twitter Scroll*/
+
+.hr {
+	margin: 20px 0 20px 0;
+}
+
+span {
+	color: #FFA200;
+}
+
+.dontbean {
+	color: #618F0F;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #BDBDBD;
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+}
+
+.footerslogan {
+	vertical-align: inherit;
+}
+
+.copyright {
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
