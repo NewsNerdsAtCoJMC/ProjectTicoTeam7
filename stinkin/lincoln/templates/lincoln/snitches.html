@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stinkin' Lincoln</title>
+
+<!-- Style Sheets -->
+    <link href={% static "css/stinkinlincoln.css" %} rel="stylesheet">
+    <link href={% static "css/flexboxgrid.min.css" %} rel="stylesheet">
+
+<!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+</head>
+<body>
+  <h2>Complaints</h2>
+  {% for complaint in complaints %}
+  <hr>
+  <h3>Name: {{ complaint.name }}</h3>
+  <p>Email: {{ complaint.email }}</p>
+  <p>Complaint: {{ complaint.problem }}</p>
+  {% endfor %}
+</body>
+</html>

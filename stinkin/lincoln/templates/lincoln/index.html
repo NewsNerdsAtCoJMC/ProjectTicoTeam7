@@ -1,4 +1,5 @@
-<!doctype html>
+{% load static %}
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -6,12 +7,18 @@
     <title>Stinkin' Lincoln</title>
 
 <!-- Style Sheets -->
-    <link href="css/stinkinlincoln.css" rel="stylesheet">
-    <link href="css/flexboxgrid.min.css" rel="stylesheet">
+    <link href={% static "css/stinkinlincoln.css" %} rel="stylesheet">
+    <link href={% static "css/flexboxgrid.min.css" %} rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
 
 <!-- Fonts -->
    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+<!-- Scripts -->
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+  <script src='{% static "KML.js" %}'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -22,19 +29,19 @@
 
 <div class="row">
 	<div class="col-xs-8 title">
-		<img src="images/stinkinlincolnlogo.png" alt="Stinkin' Lincoln logo" width="400" height="73">
-		<p class="slogan">Downtown Lincoln isn't perfect, we're here to help.</p>
+		<img src={% static "images/stinkinlincolnlogo.png" %} alt="Stinkin' Lincoln logo" width="400" height="73">
+		<p class="slogan">Downtown Lincoln isn't perfect; we're here to help.</p>
 	</div>
 
 	<div class="col-xs-4 socialmedia">
 	<a href="https://www.facebook.com/">
-		<img class="facebook" src="images/facebookicon.png" alt="Facebook Logo" height="27px" width="30px">
+		<img class="facebook" src={% static "images/facebookicon.png" %} alt="Facebook Logo" height="27px" width="30px">
 	</a>
 	<a href="https://www.twitter.com/">
-		<img class="twitter" src="images/twittericon.png" alt="Twitter Logo" height="27px" width="30px">
+		<img class="twitter" src={% static "images/twittericon.png" %} alt="Twitter Logo" height="27px" width="30px">
 	</a>
 	<a href="https://www.instagram.com/">
-		<img class="instagram" src="images/instagramicon.png" alt="Instagram Logo" height="27px" width="30px">
+		<img class="instagram" src={% static "images/instagramicon.png" %} alt="Instagram Logo" height="27px" width="30px">
 	</a>
 	</div>
 </div>
@@ -47,17 +54,11 @@
 
 	<ul>
 
-		<li><input type="checkbox" id="c1"/>
-			<label for="cl"><span><img src="images/circleyellow.png" width="30px" height="30px"></span>Potholes</label></li>
+		<li><input type="checkbox" id="potholeCheck" checked/>
+			<label for="cl">Potholes</label></li>
 
-		<li><input type="checkbox" id="c2"/>
-			<label for="cl2"><span><img src="images/squaregreen.png" width="30px" height="30px"></span>Tickets</label></li>
-
-		<li><input type="checkbox" id="c3"/>
-			<label for="cl3"><span><img src="images/triangleorange.png" width="30px" height="30px"></span>Construction</label></li>
-
-		<li><input type="checkbox" id="c4"/>
-			<label for="cl4"><span><img src="images/diamondbrown.png" width="30px" height="30px"></span>Accidents</label></li>
+		<li><input type="checkbox" id="constructionCheck" checked/>
+			<label for="cl3">Construction</label></li>
 
 	</ul>
 
@@ -67,7 +68,8 @@
 
 <div class="row">
 	<div class="col-xs-12">
-		<img class="mapimg" src="images/downtownlincoln.png" alt="Map of downtown Lincoln" height="500px" width="1000px">
+    <div id="mapid">
+    </div>
 	</div>
 </div>
 
@@ -95,19 +97,11 @@
 	<div class="col-xs-4 snitch">
 		<div class="container-fluid snitchtext">
 
-			<form action="mailto:jdzapinski@gmail.com" name="contact" method="get" enctype="text/plain">
-
-			<h3 class="submit">Name:</h3> <input type="text" name="fname">
- 			<h3 class="submit">Email:</h3><input type="text" name="lname"><br>
- 			<h3 class="submit">Problem:</h3>
-	  		<textarea rows="5" cols="30" name="problem"></textarea><br>
-	  		<input type="submit" value="Submit">
-
-	  		<p>Comments are sent to info@downtownlincoln.org</p>
-	  		<!-- We'd like to send this form to info@downtownlincoln.org but it might be better to make our own email. -->
-
-  			</form>
-
+      <form action="/" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit" />
+      </form>
 		</div>
 	</div>
 
@@ -170,13 +164,13 @@
 
 	<div class="col-xs-4 socialmedia">
 	<a href="https://www.facebook.com/">
-		<img class="facebook" src="images/facebookicon.png" alt="Facebook Logo" height="27px" width="30px">
+		<img class="facebook" src={% static "images/facebookicon.png" %} alt="Facebook Logo" height="27px" width="30px">
 	</a>
 	<a href="https://www.twitter.com/">
-		<img class="twitter" src="images/twittericon.png" alt="Twitter Logo" height="27px" width="30px">
+		<img class="twitter" src={% static "images/twittericon.png" %} alt="Twitter Logo" height="27px" width="30px">
 	</a>
 	<a href="https://www.instagram.com/">
-		<img class="instagram" src="images/instagramicon.png" alt="Instagram Logo" height="27px" width="30px">
+		<img class="instagram" src={% static "images/instagramicon.png" %} alt="Instagram Logo" height="27px" width="30px">
 	</a>
 
 	<p class="copyright">Stinkin'Lincoln &copy; 2017</p>
@@ -187,4 +181,39 @@
 </div>
 
 </body>
+
+<script type='text/javascript'>
+  var map = new L.map('mapid').setView([40.8258, -96.6852], 13);
+  var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+  var osm = new L.TileLayer(osmUrl, {minZoom: 8, attribution: osmAttrib});
+  var kmlLayer = new L.KML('{% static "street-closures.kml" %}', {async: true});
+  map.addLayer(osm);
+  map.addLayer(kmlLayer);
+  var array = new Array();
+  {% for pothole in potholes %}
+    var marker = L.marker([{{ pothole.latitude }}, {{ pothole.longitude }}]);
+    marker.bindPopup("<h2>{{ pothole.location }}</h2><p><i>Reported {{ pothole.report_date }}</i></p><p>Status: {{ pothole.status }}</p>");
+    array.push(marker);
+    map.addLayer(marker);
+  {% endfor %}
+  $("#potholeCheck").change(function() {
+    if(this.checked){
+      for (i=0;i<array.length;i++){
+        map.addLayer(array[i]);
+      }
+    } else {
+      for (i=0;i<array.length;i++){
+        map.removeLayer(array[i]);
+      }
+    }
+  });
+  $("#constructionCheck").change(function() {
+    if(this.checked){
+        map.addLayer(kmlLayer);
+    } else {
+        map.removeLayer(kmlLayer);
+    }
+  });
+</script>
 </html>

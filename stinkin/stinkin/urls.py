@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from lincoln import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', views.home, name='home'),
+    url(r'^submission/?$', views.thanks, name='thanks'),
+    url(r'^snitches/?$', views.snitches, name='snitches')
 ]

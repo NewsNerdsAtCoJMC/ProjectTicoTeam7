@@ -1,0 +1,1712 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>City of Lincoln Street Closures Map</name>
+
+<!-- Begin Style Definitions -->
+
+	<Style id="major-full-closure">
+		<LineStyle>
+			<color>ff4A1BA6</color>
+			<width>6</width>
+		</LineStyle>
+		<IconStyle>
+			<Icon>
+				<href>/static/images/intersection-fc.png</href>
+			</Icon>
+			<scale>0.35</scale>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff4A1BA6</color>
+		</PolyStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="major-lane-closure">
+		<LineStyle>
+			<color>ffa95b3f</color>
+			<width>4</width>
+		</LineStyle>
+		<IconStyle>
+			<Icon>
+				<href>/static/images/intersection-lc.png</href>
+			</Icon>
+			<scale>0.35</scale>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffa95b3f</color>
+		</PolyStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="minor-full-closure">
+		<LineStyle>
+			<color>ff4A1BA6</color>
+			<width>6</width>
+		</LineStyle>
+		<IconStyle>
+			<Icon>
+				<href>/static/images/intersection-fc.png</href>
+			</Icon>
+			<scale>0.35</scale>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff4A1BA6</color>
+		</PolyStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="minor-lane-closure">
+		<LineStyle>
+			<color>ffa95b3f</color>
+			<width>4</width>
+		</LineStyle>
+		<IconStyle>
+			<Icon>
+				<href>/static/images/intersection-lc.png</href>
+			</Icon>
+			<scale>0.35</scale>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffa95b3f</color>
+		</PolyStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="detour">
+		<LineStyle>
+			<color>ffCCA90B</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+
+	<Style id="popup-only">
+		<LineStyle>
+			<color>00ffffff</color>
+			<width>0</width>
+		</LineStyle>
+	</Style>
+
+	<Style id="boundary">
+		<LineStyle>
+			<color>7f4f4f4f</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+<!-- END style -->
+
+
+
+<!-- /////////////////////////// MAJOR STREETS \\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+<Folder>
+	<name>Major Streets</name>
+
+
+	<!-- 11th -->
+
+	<Placemark>
+		<name>11th from L to M</name>
+		<description><![CDATA[
+			<p class="details">Lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Roof repairs</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/10/2017</span>
+					<span class="open">4/17/2017 (7 p.m.)</span>
+				</dd>
+				<dd><span class="daily-close">daytime only</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>Weathercraft - Chris: 402-432-0847</dd>
+				<dd>City - Greg: 402-416-5150</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.70554760580676,40.81038319276281,0 -96.70553762520184,40.8112751073174,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- 14th -->
+
+	<Placemark>
+		<name>14th from Highway 2 to Old Cheney</name>
+		<description><![CDATA[
+			<p class="details">Northbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement removal</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">3/27/2017</span>
+					<span class="open">11/17/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>NDOR - Ryan: 402-416-0594</dd>
+				<dd>City - Shane: 402-525-7852</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a class="pdf" href="http://roads.nebraska.gov/media/7842/3-20-2017-warlick-lincoln.pdf">NDOR News Release: Work to Begin on L-55W, Warlick Blvd., in Lincoln</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.70165154473949,40.75573674675565,0 -96.70166001530708,40.75604003326074,0 -96.7015901842055,40.75741123282936,0 -96.70157329977899,40.7578927845062,0 -96.70156611020049,40.7583197056091,0 -96.70150928814124,40.75942121179116,0 -96.70148947762479,40.76084097687957,0 -96.70147020339142,40.76356399987833,0 -96.70146523450651,40.76599147063907,0 -96.7015073981447,40.76781024789379,0 -96.70152692469956,40.76906857055823,0 -96.70150101703564,40.77016334582403,0 -96.70152538513419,40.7714091610444,0 -96.7015379589747,40.77191840284927,0  -96.7015379589747,40.77191840284927,0 -96.7015379589747,40.77191840284927,0 -96.7015379589747,40.77191840284927,0 -96.7015379589747,40.77191840284927,0 -96.7015379589747,40.77191840284927,0 -96.7015379589747,40.77191840284927,0 -96.7015379589747,40.77191840284927,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- 16th -->
+
+	<Placemark>
+		<name>16th from A to G</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Paving project</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">3/1/2017</span>
+					<span class="open">8/4/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>K2 Construction - Casey: 402-467-2355</dd>
+				<dd>City - Gaylon: 402-416-7486</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/16th/a-f/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.69825611404383,40.79920662161467,0 -96.69823956764458,40.80582289513475,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>Detour for 16th from A to G</name>
+		<description><![CDATA[
+			<p class="details">Temporary two-way traffic on 17th Street</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Paving project</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">3/1/2017</span>
+					<span class="open">8/4/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>K2 Construction - Casey: 402-467-2355</dd>
+				<dd>City - Gaylon: 402-416-7486</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/16th/a-f/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#detour</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.69823971272852,40.80582581643331,0 -96.69678219260065,40.80581904257611,0 -96.69683538846559,40.79951838897589,0 -96.69670272540193,40.79914192419058,0 -96.69824583986315,40.7991712788927,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- 21st -->
+
+	<Placemark>
+		<name>21st from K to L</name>
+		<description><![CDATA[
+			<p class="details">Southbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Window installation</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/5/2017</span>
+					<span class="open">4/17/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>NGC - Justin: 402-610-1307</dd>
+				<dd>City - Greg: 402-416-5150</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.69070169452085,40.80923492293971,0 -96.69070281751567,40.81007145169834,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- 27th -->
+
+	<Placemark>
+		<name>27th from A to Capitol Parkway</name>
+		<description><![CDATA[
+			<p class="details">Northbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility line work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/20/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>LES - Dave: 402-432-5638</dd>
+				<dd>City - Shane: 402-525-7852</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68234807428111,40.79898834503105,0 -96.68226731257782,40.80236428272635,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>27th from Arbor to Wildcat</name>
+		<description><![CDATA[
+			<p class="details">Northbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement removal</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">3/27/2017</span>
+					<span class="open">11/17/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>NDOR - Bob: 402-471-0850</dd>
+				<dd>City - Shane: 402-525-7852</dd>
+
+				<dt>NDOR News Releases</dt>
+				<dd class="li"><a class="pdf" href="http://roads.nebraska.gov/media/7913/4-5-2017-27street-i80-lincoln.pdf">Construction Update for the 27th and I-80 Interchange Project in Lincoln</a><span class="nobr">&nbsp;&#40;4/5/17&#41;</span></dd>
+				<dd class="li"><a class="pdf" href="http://roads.nebraska.gov/media/7761/3-13-2017-i80-lincoln.pdf">NDOR News Release: Work to Begin on I-80/27th Street Interchange in Lincoln</a><span class="nobr">&nbsp;&#40;3/13/17&#41;</span></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.6818179688174,40.8813098835153,0 -96.68182537089894,40.88312054867634,0 -96.68187855534065,40.88500023065714,0 -96.68199063525121,40.88712909919842,0 -96.6823594283605,40.89328009383895,0  -96.6823594283605,40.89328009383895,0 -96.6823594283605,40.89328009383895,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>27th at Center</name>
+		<description><![CDATA[
+			<p class="details">Southbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/12/2017</span>
+					<span class="open">4/14/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Heimes - Chuck: 402-298-1126</dd>
+				<dd>City - Leroy: 402-560-7290</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68226665029434,40.83258032517582,0 -96.68226917290427,40.83342524309915,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>27th from Center to Holdrege</name>
+		<description><![CDATA[
+			<p class="details">Northbound and southbound lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement repair</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">5/13/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>TCW Construction - Steve: 402-430-3431</dd>
+				<dd>Olsson Associates - Brian: 402-304-6571</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/27th/holdrege-fletcher/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68224421983184,40.82807440903733,0 -96.68220965083013,40.82981913901737,0 -96.68217639797521,40.83158583112001,0 -96.68215424720769,40.83344157703915,0  -96.68215424720769,40.83344157703915,0  -96.68215424720769,40.83344157703915,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>27th at Fair</name>
+		<description><![CDATA[
+			<p class="details">Southbound outside lane closure &#40;400' north &#41;</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>Heimes - Chuck: 402-298-1126</dd>
+				<dd>City - Leroy: 402-560-7290</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68227768453785,40.83172350609507,0 -96.68226740558067,40.83280544314519,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>27th from Fairfield to Knox</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility potholing</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close open">4/17/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>K2 Construction - Ross: 402-430-4597</dd>
+				<dd>City - Zach: 402-613-3763</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68212004886556,40.84475733288464,0 -96.68209270754008,40.84756308270482,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>27th from Folkways to Superior</name>
+		<description><![CDATA[
+			<p class="details">Northbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/10/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<dd><span class="duration">Weekdays only</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>Bauer Underground - Rob: 402-992-0280</dd>
+				<dd>City - Leroy: 402-560-7290</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68186237455457,40.85721872459364,0 -96.68187227130717,40.86552545240853,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>27th from Highway 2 to Woods</name>
+		<description><![CDATA[
+			<p class="details">Southbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">3/8/2017</span>
+					<span class="open">5/8/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>K2 Construction - Charlie: 402-416-6748</dd>
+				<dd>City - Mark: 402-416-5348</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68303941720164,40.76966453099912,0 -96.68297046831948,40.77026027347048,0 -96.68287599775461,40.77058019387486,0 -96.68255210612153,40.7712914391432,0 -96.68255362387126,40.77211201442115,0  -96.68255362387126,40.77211201442115,0  -96.68255362387126,40.77211201442115,0  -96.68255362387126,40.77211201442115,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>27th from Jacquelyn to Old Cheney</name>
+		<description><![CDATA[
+			<p class="details">Southbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility installation</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/10/2017</span>
+					<span class="open">4/14/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Neilson Construction - Cameron: 402-677-8417</dd>
+				<dd>City - Harry: 402-429-4872</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68260546233049,40.75319740083877,0 -96.68258302687039,40.7552756912865,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- 40th -->
+
+	<Placemark>
+		<name>40th from Normal to South</name>
+		<description><![CDATA[
+			<p class="details">Paving rehab project</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Paving rehab project</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/20/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>MTZ - Ozzy: 402-304-4719</dd>
+				<dd>Benesch - Steve: 402-310-7459</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/normal/south-56th/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.66328314841546,40.79088368137229,0 -96.66328558798141,40.79156215587407,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+
+	<!-- NW 48th -->
+
+	<Placemark>
+		<name>NW 48th from W Adams to W Vine</name>
+		<description><![CDATA[
+			<p class="details">Northbound and southbound variable lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement repair</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">3/15/2017</span>
+					<span class="open">4/14/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>K2 Construction - Casey: 402-560-8558</dd>
+				<dd>City - Mark: 402-416-5348</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.78758169114137,40.8209247176931,0 -96.78760471997524,40.82824888136066,0 -96.78749318255859,40.83512627879542,0 -96.78742598113547,40.83832767883827,0 -96.78735039618393,40.84273610012343,0 -96.78735039618393,40.84273610012343,0 -96.78735039618393,40.84273610012343,0 -96.78735039618393,40.84273610012343,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- 56th -->
+
+	<!-- future -->
+	<Placemark>
+		<name>56th and Old Cheney</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement Repairs</dd>
+
+				<dt>Effective</dt>
+				<dd style="display: inline">
+					<span class="close">4/30/2017 (6 p.m.)</span> &#40;evening&#41; -
+				</dd>
+				<dd style="display: inline">
+					<span class="open">5/14/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Benesch - Steve: 402-310-7459</dd>
+				<dd>City - Erika: 402-326-1037</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/old-cheney/40th-hwy2/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-full-closure</styleUrl>
+		<Point>
+			<coordinates>-96.64435144807779,40.75457297883982,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<!-- future -->
+	<Placemark>
+		<name>56th and Shady Creek</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Traffic signal improvements</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">6/1/2017</span>
+					<span class="open">7/12/2017</span>
+				</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.64430484517091,40.75869666105747,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+	<!-- 70th -->
+
+	<!-- future -->
+	<Placemark>
+		<name>70th and A</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Traffic signal improvements</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">7/15/2017</span>
+					<span class="open">8/12/2017</span>
+				</dd>
+				<dd><span class="daily-close">night-time only</span></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.62506642251672,40.79883317209343,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>70th and Cornhusker</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Traffic signal work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">9 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>City - Benjamin: 402-326-0518</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.6246164922099,40.86886223007529,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>70th and Highway 2</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Traffic signal work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">9 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>City - Benjamin: 402-326-0518</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.62497798427603,40.74593518306034,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>70th and Pioneers</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Traffic signal work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">9 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>City - Benjamin: 402-326-0518</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.62515778538321,40.76966523150369,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>70th from Travis to Yankee Woods</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Paving</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">2/20/2017</span>
+					<span class="open">8/1/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Constructors - Steve: 402-434-1727</dd>
+				<dd>City - Jess: 402-416-5341</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/yankee-hill/70th-hwy-2/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.62549952479762,40.72273175789443,0 -96.62545256745183,40.72635842558957,0 -96.62549320708995,40.72709603668713,0 -96.62584706900509,40.729396663678,0 -96.62586760408597,40.72962873008883,0 -96.62580279883791,40.73039668077062,0 -96.62544967842069,40.73181155889052,0 -96.62544037911341,40.73205598445865,0 -96.62544037911341,40.73205598445865,0 -96.62544037911341,40.73205598445865,0 -96.62544037911341,40.73205598445865,0 -96.62544037911341,40.73205598445865,0 -96.62544037911341,40.73205598445865,0 -96.62544037911341,40.73205598445865,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>70th at Van Dorn</name>
+		<description><![CDATA[
+			<p class="details">Northbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Manhole splicing</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/13/2017</span>
+					<span class="open">4/20/2017</span>
+				</dd>
+				<dd><span class="daily-close">daytime only</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>TH Cable / Windstream - Jason: 402-416-1923</dd>
+				<dd>City - Greg: 402-416-5150</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.6250702,40.784284,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+	<!-- 84th -->
+
+	<Placemark>
+		<name>84th from Amberhill to Yankee Woods</name>
+		<description><![CDATA[
+			<p class="details">Northbound lane closure &#40;no closures in roundabout&#41;</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/3/2017</span>
+					<span class="open">4/21/2017 (3 p.m.)</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<dd><span class="duration">Weekdays only</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>Bauer Underground - Rob: 402-992-0280</dd>
+				<dd>City - Harry: 402-429-4872</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<MultiGeometry>
+			<!-- north of roundabout -->
+			<LineString>
+				<coordinates>
+					-96.60601653153569,40.72680871426383,0 -96.60603832498278,40.73053020234337,0 -96.60598262994678,40.73138442063824,0 -96.60592399539797,40.73215570115655,0
+				</coordinates>
+			</LineString>
+
+			<!-- south of roundabout -->
+			<LineString>
+				<coordinates>
+					-96.6060518355205,40.72271426754291,0 -96.60599553182841,40.72608789542849,0
+				</coordinates>
+			</LineString>
+		</MultiGeometry>
+	</Placemark>
+
+	<Placemark>
+		<name>84th from Cheney Ridge to Old Cheney</name>
+		<description><![CDATA[
+			<p class="details">Northbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>TJ Cable - Mitch: 402-651-2810</dd>
+				<dd>City - Greg: 402-416-5147</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.60597721773587,40.75007613089545,0 -96.60594589468924,40.75512454907527,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>84th and Lexington</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Traffic signal work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">9 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>City - Benjamin: 402-326-0518</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.60588790563412,40.83145100966178,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>84th from Mandarin to Pinehill</name>
+		<description><![CDATA[
+			<p class="details">Southbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>Bauer Underground - Rob: 402-992-0280</dd>
+				<dd>City - Greg: 402-416-5147</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.60624462709869,40.76297801252941,0 -96.60625194247344,40.76463132003288,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>84th from Old Cheney to Wendell</name>
+		<description><![CDATA[
+			<p class="details">Southbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>Bauer Underground - Rob: 402-992-0280</dd>
+				<dd>City - Greg: 402-416-5147</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.60623605450971,40.75576415724591,0 -96.60625305457505,40.75742909274194,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- A -->
+
+	<Placemark>
+		<name>A from 25th to 28th</name>
+		<description><![CDATA[
+			<p class="details">Eastbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Power line replacement</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/19/2017</span>
+					<span class="open">4/28/2017</span>
+				</dd>
+				<dd><span class="daily-close">Daytime only</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>GE/LES - Ron: 402-467-1627</dd>
+				<dd>City - Greg: 402-416-5150</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.6853542626575,40.79892095823152,0 -96.68062571505037,40.79891156095968,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- Antelope Valley -->
+
+	<Placemark>
+		<name>Antelope Valley from L to O</name>
+		<description><![CDATA[
+			<p class="details">Northbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>Heimes - Chuck: 402-298-1126</dd>
+				<dd>City - Leroy: 402-560-7290</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.693832531344,40.8103467687047,0 -96.69379630843928,40.81347322011594,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>Antelope Valley and Military</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Traffic signal work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">9 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>City - Benjamin: 402-326-0518</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.70088471012704,40.83079436004318,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+	<!-- Normal -->
+
+	<Placemark>
+		<name>Normal from Cotner to South</name>
+		<description><![CDATA[
+			<p class="details">Eastbound and westbound lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Paving rehab project</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/14/2017</span>
+					<span class="open">4/23/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>MTZ - Ozzy: 402-304-4719</dd>
+				<dd>Benesch - Steve: 402-310-7459</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/normal/south-56th/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.65825718196894,40.78939027638884,0 -96.66359467523556,40.79085903476439,0 -96.66418994993407,40.79109979796573,0 -96.66457308419913,40.79132829985427,0 -96.66493135072901,40.79162639793525,0 -96.66493135072901,40.79162639793525,0 -96.66493135072901,40.79162639793525,0 -96.66493135072901,40.79162639793525,0 -96.66493135072901,40.79162639793525,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- O -->
+
+	<Placemark>
+		<name>W O from 1st to Sun Valley</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility potholing</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close open">4/18/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>K2 Construction - Ross: 402-430-4597</dd>
+				<dd>City - Zach: 402-613-3763</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.72498979916385,40.81370389355446,0 -96.72024542933194,40.81366406525919,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>O from 13th to 14th</name>
+		<description><![CDATA[
+			<p class="details">Eastbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Crane/roofing work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/18/2017</span>
+					<span class="open">5/2/2017</span>
+				</dd>
+				<dd><span class="daily-close">Daytime only</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>Scott Enterprises - Rich: 402-510-2227</dd>
+				<dd>City - Greg: 402-416-5150</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.7025094265183,40.81356613892116,0 -96.70127308069657,40.81355596428128,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- Old Cheney -->
+
+	<Placemark>
+		<name>Old Cheney from 27th to The Knolls</name>
+		<description><![CDATA[
+			<p class="details">Eastbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility installation</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/10/2017</span>
+					<span class="open">4/14/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Neilson Construction - Cameron: 402-677-8417</dd>
+				<dd>City - Harry: 402-429-4872</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68663647820048,40.75541068161544,0 -96.68266134258079,40.75534331277406,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- Pioneers -->
+
+	<Placemark>
+		<name>Pioneers from 70th to Ridgeview</name>
+		<description><![CDATA[
+			<p class="details">Westbound outside lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>Bauer Underground - Rob: 402-992-0280</dd>
+				<dd>City - Greg: 402-416-5147</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.62871118860022,40.76977496527888,0 -96.62532528293127,40.76974462098195,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>Pioneers from 80th to 84th</name>
+		<description><![CDATA[
+			<p class="details">Westbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Water service</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>John's Plumbing - Mark: 402-610-6153</dd>
+				<dd>City - Shane: 402-525-7852</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.61111636867682,40.76974741749855,0 -96.60835204933697,40.76977610714787,0 -96.60752477439358,40.76979291117252,0 -96.60634976883061,40.769798076706,0 -96.60634976883061,40.769798076706,0 -96.60634976883061,40.769798076706,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+	<Placemark>
+		<name>Pioneers at Ridgeview</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Utility work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">8 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+				<!--
+				<dd><span class="duration">Weekdays only</span></dd>
+				-->
+
+				<dt>Contacts</dt>
+				<dd>Bauer Underground - Rob: 402-992-0280</dd>
+				<dd>City - Greg: 402-416-5147</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.62878365812551,40.76970950912187,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+	<!-- Stacy -->
+
+	<Placemark>
+		<name>Stacy and Pioneers</name>
+		<description><![CDATA[
+			<p class="details">Lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Traffic signal work</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+				<dd><span class="daily-close">9 a.m.</span> to <span class="daily-open">3 p.m.</span></dd>
+
+				<dt>Contacts</dt>
+				<dd>City - Benjamin: 402-326-0518</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<Point>
+			<coordinates>-96.6220798414916,40.76969044050985,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+	<!-- Superior -->
+
+	<Placemark>
+		<name>Superior from 27th to 31st</name>
+		<description><![CDATA[
+			<p class="details">Eastbound and westbound lane closures</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement repairs</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">5/26/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>TCW Construction - Steve: 402-430-3431</dd>
+				<dd>Olsson Associates - Brian: 402-304-6571</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/superior/27th-cornhusker/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.68185849640771,40.85708180084933,0 -96.67693839807239,40.85708862969591,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- W Van Dorn -->
+
+	<Placemark>
+		<name>W Van Dorn from Folsom to Highway 77</name>
+		<description><![CDATA[
+			<p class="details">Shoulder work</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Bridge repair</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>City Street Maintenance - Mike: 402-432-8705</dd>
+				<dd>After hours: 402-440-0337</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.73215028491826,40.78680277246492,0 -96.73039775262582,40.78739302280964,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- Warlick -->
+
+	<Placemark>
+		<name>Warlick from Highway 77 to Old Cheney</name>
+		<description><![CDATA[
+			<p class="details">Northbound lane closure</p>
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement removal</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">3/27/2017</span>
+					<span class="open">11/17/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>NDOR - Ryan: 402-416-0594</dd>
+				<dd>City - Shane: 402-525-7852</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a class="pdf" href="http://roads.nebraska.gov/media/7842/3-20-2017-warlick-lincoln.pdf">NDOR News Release: Work to Begin on L-55W, Warlick Blvd., in Lincoln</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-lane-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.72000586045446,40.7462426876137,0 -96.70439852182473,40.75466434317593,0 -96.70377859807093,40.7550507357514,0 -96.70361739968082,40.7551551977975,0 -96.70322169687971,40.7555157637966,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- Yankee Hill -->
+
+	<Placemark>
+		<name>Yankee Hill from 68th to 91st</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Paving</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">2/20/2017</span>
+					<span class="open">8/1/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Constructors - Steve: 402-434-1727</dd>
+				<dd>City - Jess: 402-416-5341</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/yankee-hill/70th-hwy-2/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#major-full-closure</styleUrl>
+		<MultiGeometry>
+			<!-- 68th to 84th -->
+			<LineString>
+				<coordinates>
+					-96.62875608788815,40.72634995912633,0 -96.60653368586297,40.7263292111312,0
+				</coordinates>
+			</LineString>
+
+			<!-- 84th to 91st -->
+			<LineString>
+				<coordinates>
+					-96.60123387907561,40.72632225793891,0 -96.60565766875274,40.72632373509351,0
+				</coordinates>
+			</LineString>
+		</MultiGeometry>
+	</Placemark>
+
+	<Placemark>
+		<name>Detour for Yankee Hill and 70th</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Paving</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">2/20/2017</span>
+					<span class="open">8/1/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Constructors - Steve: 402-434-1727</dd>
+				<dd>City - Jess: 402-416-5341</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/yankee-hill/70th-hwy-2/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#detour</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.62528643816157,40.69729785315087,0 -96.64437693250763,40.69728314000363,0 -96.64437985395371,40.72627818832732,0 -96.64434430676467,40.7408279973393,0 -96.63029753543459,40.74085967204454,0 -96.62529829154096,40.7408026426178,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+</Folder>
+
+
+<!-- /////////////////////////// MINOR STREETS \\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+<Folder>
+	<name>Minor Streets</name>
+
+
+	<!-- 35th -->
+
+	<Placemark>
+		<name>35th from A to Everett</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Paving rehabilitation</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/3/2017</span>
+					<span class="open">4/14/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>MTZ - Jeff: 402-560-8287</dd>
+				<dd>City - Gaylon: 402-416-7486</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#minor-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.67044619870154,40.79715725893996,0 -96.67044650617625,40.79886892956435,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- 91st -->
+
+	<Placemark>
+		<name>91st from First to 91st</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Road Construction</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">5/22/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Constructors - Chris: 402-440-0923</dd>
+				<dd>City - Jess: 402-416-5341</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/yankee-hill/70th-hwy-2/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#minor-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.59650598696645,40.72633380382316,0 -96.59653025724472,40.72819884201602,0 -96.59660136284634,40.72842308088885,0 -96.59710410951412,40.72907808005862,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- D -->
+
+	<Placemark>
+		<name>D from 12th to 20th</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Water main replacement</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">2/27/2017</span>
+					<span class="open">8/4/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>K2 Construction - Casey: 402-467-2355</dd>
+				<dd>City - Gaylon: 402-416-7486</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/nance-d-water/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#minor-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.70405132037439,40.80252396924085,0 -96.6924706727322,40.80248778256571,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- Industrial -->
+
+	<Placemark>
+		<name>Industrial from Chandler to Superior</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement repair</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/17/2017</span>
+					<span class="open">5/26/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>TCW Construction - Steve: 402-430-3431</dd>
+				<dd>Olsson Associates - Brian: 402-304-6571</dd>
+
+				<dt>Related</dt>
+				<dd class="li"><a href="http://lincoln.ne.gov/city/pworks/projects/superior/27th-cornhusker/">Project information</a></dd>
+			</dl>
+		]]></description>
+		<styleUrl>#minor-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.67965007618859,40.85725320492421,0 -96.67964583079066,40.85789052734061,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+	<!-- W Jean -->
+
+	<Placemark>
+		<name>W Jean from SW 12th to SW 13th</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Water service repair</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/14/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>Streeter Plumbing - Danny: 402-540-3280</dd>
+				<dd>City - Shane: 402-525-7852</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#minor-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.74159665547158,40.78958599042336,0 -96.73984133230179,40.78956982882698,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+
+
+	<!-- Russell -->
+
+	<Placemark>
+		<name>Russell from 56th to 57th</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>Pavement repair</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close">4/10/2017</span>
+					<span class="open">4/21/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>City Street Maintenance - Terry: 402-326-0686</dd>
+				<dd>After hours: 402-440-0337</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#minor-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.64332177655642,40.86077080169274,0 -96.64294636734871,40.86090205288464,0 -96.64276211946896,40.86092334456782,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+
+	<!-- Stadium -->
+
+	<Placemark>
+		<name>Stadium from Salt Creek to T</name>
+		<description><![CDATA[
+			<dl>
+				<dt>Reason</dt>
+				<dd>UNL football</dd>
+
+				<dt>Effective</dt>
+				<dd>
+					<span class="close open">4/15/2017</span>
+				</dd>
+
+				<dt>Contacts</dt>
+				<dd>City - Shane: 402-525-7852</dd>
+			</dl>
+		]]></description>
+		<styleUrl>#minor-full-closure</styleUrl>
+		<LineString>
+			<coordinates>
+				-96.7069648069828,40.81931402265008,0 -96.70693388782104,40.82184401978941,0 -96.7070170066074,40.82200693735639,0 -96.70732830238973,40.82239301015796,0 -96.70732830238973,40.82239301015796,0 -96.70732830238973,40.82239301015796,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+
+
+</Folder>
+
+
+<!-- /////////////////////////// Lancaster County Boundary \\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+<Folder>
+	<name>Lancaster County</name>
+
+	<Placemark>
+		<name>Lancaster County</name>
+		<styleUrl>#boundary</styleUrl>
+		<LineString>
+			<coordinates>-96.91062,40.96587 -96.91064,40.97338 -96.91067,40.98088 -96.91071,40.99512 -96.91075,41.00938 -96.91069,41.02153 -96.91094,41.04612 -96.90851,41.04609 -96.90809,41.04609 -96.88699,41.04608 -96.87563,41.04597 -96.87116,41.04604 -96.86102,41.04589 -96.84851,41.04599 -96.82431,41.04595 -96.79614,41.04589 -96.7863,41.04589 -96.76612,41.04586 -96.74888,41.04582 -96.73251,41.04577 -96.71002,41.04571 -96.69594,41.04568 -96.67897,41.04565 -96.65568,41.04553 -96.64474,41.04556 -96.62716,41.04552 -96.61591,41.04549 -96.59914,41.04545 -96.58198,41.04541 -96.5606,41.04533 -96.53843,41.04529 -96.49341,41.0452 -96.4639,41.04508 -96.46387,41.01871 -96.46386,41.01607 -96.46386,41.01605 -96.46385,41.00068 -96.46385,40.99663 -96.46384,40.97755 -96.46382,40.96964 -96.46374,40.95788 -96.46375,40.94726 -96.46374,40.9435 -96.46374,40.9312 -96.46374,40.93093 -96.46373,40.92167 -96.46373,40.91648 -96.46372,40.90984 -96.46372,40.89998 -96.46372,40.8942 -96.46371,40.87772 -96.46371,40.8692 -96.46372,40.85695 -96.46375,40.85026 -96.46369,40.84492 -96.46372,40.84197 -96.46372,40.82215 -96.46374,40.80188 -96.46374,40.79735 -96.46375,40.79377 -96.46376,40.78555 -96.46376,40.78396 -96.46376,40.78307 -96.4638,40.76202 -96.46379,40.74615 -96.46382,40.74339 -96.46383,40.73319 -96.46384,40.7252 -96.46383,40.71128 -96.46385,40.70146 -96.46384,40.69696 -96.46384,40.68785 -96.46384,40.67932 -96.46382,40.646 -96.46377,40.61834 -96.46375,40.61259 -96.46373,40.60467 -96.46371,40.59569 -96.46371,40.59187 -96.46369,40.57382 -96.46366,40.56251 -96.46367,40.552 -96.46365,40.55103 -96.46363,40.54867 -96.46362,40.54585 -96.46363,40.54022 -96.46365,40.53755 -96.46364,40.53046 -96.46363,40.52301 -96.4692,40.52307 -96.48431,40.52322 -96.49026,40.52328 -96.49323,40.52331 -96.49856,40.52336 -96.52741,40.52357 -96.52767,40.52357 -96.57217,40.52383 -96.59104,40.52378 -96.61998,40.52371 -96.63099,40.52355 -96.64789,40.5234 -96.65303,40.52344 -96.6724,40.5234 -96.70282,40.52307 -96.70915,40.52308 -96.72957,40.52311 -96.75318,40.52309 -96.77513,40.52307 -96.7913,40.52308 -96.80765,40.52308 -96.83278,40.52318 -96.86245,40.52333 -96.87814,40.52344 -96.89342,40.52354 -96.90953,40.52361 -96.91264,40.52362 -96.91253,40.53115 -96.91241,40.53976 -96.91225,40.55267 -96.91222,40.56137 -96.91221,40.56718 -96.9127,40.5801 -96.91305,40.58825 -96.9132,40.59168 -96.91392,40.61073 -96.91392,40.61382 -96.91392,40.61824 -96.91391,40.62686 -96.91378,40.63804 -96.91377,40.63884 -96.91376,40.63972 -96.91375,40.64727 -96.91375,40.65099 -96.91374,40.65459 -96.91372,40.65757 -96.91371,40.65867 -96.91371,40.65987 -96.91369,40.66156 -96.91364,40.66873 -96.9135,40.68296 -96.91349,40.68811 -96.91349,40.69578 -96.91349,40.69795 -96.91305,40.69795 -96.91106,40.71123 -96.91099,40.72693 -96.91088,40.75277 -96.91084,40.76357 -96.91075,40.78494 -96.91074,40.80285 -96.91067,40.81784 -96.91063,40.82541 -96.9106,40.83409 -96.91057,40.84823 -96.91053,40.86377 -96.9105,40.87574 -96.91051,40.88515 -96.91053,40.89901 -96.91054,40.91549 -96.91056,40.92621 -96.91059,40.95519 -96.91061,40.9627 -96.91062,40.96539</coordinates>
+		</LineString>
+	</Placemark>
+</Folder>
+
+</Document>
+</kml>
