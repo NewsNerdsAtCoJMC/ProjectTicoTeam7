@@ -1,6 +1,6 @@
 # ProjectTicoTeam7
 
-##Stinkin' Lincoln
+## Stinkin' Lincoln
 
 This app allows drivers to find out about potholes and construction before driving around Lincoln.  
 
